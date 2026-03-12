@@ -1,0 +1,3 @@
+[submodule "Blog Application"]
+	path = Blog Application
+	url = ..\\Blog Application
