@@ -24,6 +24,8 @@ Each application added to this hub must follow the same pattern:
 | --- | --- | --- |
 | Blog Application | CMS blog application containing both frontend and backend code | https://github.com/SivaPrasannaS/Blog-Application |
 
+See `APPLICATIONS.md` for the maintained application index.
+
 ## Standard Layout
 
 ```text
@@ -45,14 +47,34 @@ Use the helper script in `scripts/add-application-submodule.ps1` after creating 
 Example:
 
 ```powershell
-.\scripts\add-application-submodule.ps1 -Name "Inventory Application" -RepositoryUrl "https://github.com/SivaPrasannaS/Inventory-Application.git"
+.\scripts\add-application-submodule.ps1 -Name "Inventory Application" -RepositoryUrl "https://github.com/SivaPrasannaS/Inventory-Application.git" -Purpose "Inventory management application"
 ```
 
 The script will:
 
 1. Add the new application as a submodule.
 2. Stage the submodule reference and `.gitmodules` change.
-3. Create a parent-repository commit describing the addition.
+3. Update `APPLICATIONS.md` with the new application entry.
+4. Create a parent-repository commit describing the addition.
+
+## Bootstrap A New Application
+
+Use `scripts/bootstrap-application.ps1` to create a brand-new child repository and register it in the parent automatically.
+
+Example:
+
+```powershell
+.\scripts\bootstrap-application.ps1 -Name "Inventory Application" -Purpose "Inventory management platform" -Visibility public
+```
+
+The bootstrap script will:
+
+1. Create a local child repository folder beside the parent repository.
+2. Generate a minimal application scaffold.
+3. Initialize and commit the child repository.
+4. Create and push the GitHub repository through GitHub CLI.
+5. Register the new child repository in the parent as a submodule.
+6. Update `APPLICATIONS.md` and commit the parent repository changes.
 
 ## Clone With Submodules
 
