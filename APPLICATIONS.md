@@ -5,6 +5,7 @@ This index tracks every application linked into the parent repository as a Git s
 | Application | Folder | Repository | Purpose |
 | --- | --- | --- | --- |
 | Blog Application | Blog Application | https://github.com/SivaPrasannaS/Blog-Application | CMS blog application containing both frontend and backend code |
+| Content Hub Manager | Content Hub Manager | https://github.com/SivaPrasannaS/Content-Hub-Manager | Content management platform with frontend and backend modules for articles, pages, media, analytics, and administration |
 
 ## Notes
 

@@ -23,6 +23,7 @@ Each application added to this hub must follow the same pattern:
 | Application | Purpose | Repository |
 | --- | --- | --- |
 | Blog Application | CMS blog application containing both frontend and backend code | https://github.com/SivaPrasannaS/Blog-Application |
+| Content Hub Manager | Content management platform with frontend and backend modules for articles, pages, media, analytics, and administration | https://github.com/SivaPrasannaS/Content-Hub-Manager |
 
 See `APPLICATIONS.md` for the maintained application index.
 
@@ -34,6 +35,7 @@ Full-Stack-Application/
 	.gitmodules
 	scripts/
 	Blog Application/
+	Content Hub Manager/
 	Future Application 2/
 	Future Application 3/
 ```

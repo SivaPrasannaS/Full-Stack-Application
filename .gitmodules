@@ -1,3 +1,6 @@
 [submodule "Blog Application"]
 	path = Blog Application
 	url = https://github.com/SivaPrasannaS/Blog-Application.git
+[submodule "Content Hub Manager"]
+	path = Content Hub Manager
+	url = https://github.com/SivaPrasannaS/Content-Hub-Manager.git
