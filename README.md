@@ -24,6 +24,7 @@ Each application added to this hub must follow the same pattern:
 | --- | --- | --- |
 | Blog Application | CMS blog application containing both frontend and backend code | https://github.com/SivaPrasannaS/Blog-Application |
 | Content Hub Manager | Content management platform with frontend and backend modules for articles, pages, media, analytics, and administration | https://github.com/SivaPrasannaS/Content-Hub-Manager |
+| Event Hub | Event management platform with frontend and backend modules for events, venues, media, RSVPs, analytics, and administration | https://github.com/SivaPrasannaS/Event-Hub |
 
 See `APPLICATIONS.md` for the maintained application index.
 
@@ -36,6 +37,7 @@ Full-Stack-Application/
 	scripts/
 	Blog Application/
 	Content Hub Manager/
+	Event Hub/
 	Future Application 2/
 	Future Application 3/
 ```

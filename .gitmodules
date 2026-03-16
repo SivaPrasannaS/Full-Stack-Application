@@ -4,3 +4,6 @@
 [submodule "Content Hub Manager"]
 	path = Content Hub Manager
 	url = https://github.com/SivaPrasannaS/Content-Hub-Manager.git
+[submodule "Event Hub"]
+	path = Event Hub
+	url = https://github.com/SivaPrasannaS/Event-Hub.git
